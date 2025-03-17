@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d63d883981b0844b9620929026b534, type: 3}
+  m_Name: SpaceBodyData
+  m_EditorClassIdentifier: 
+  _names:
+  - Senual
+  - Jakarta-09
+  - Jakarta-08
+  - Jakarta-02
+  - Jakarta-01
+  - Nokual-U
+  - Sentina Cama
+  - Hwortang
+  - Moskau
+  - LK-9880
+  - LS-9811
+  - LS-1145
+  - Nomu
+  - Oona
+  - Portla
+  - Bonnie-01
+  - Bonnie-88
+  - Frokuy
+  - Moska
+  - Polund
+  - Saya
+  - Sayarina
+  - Holyan
+  - Polokanra
+  - Aarosunt
+  - Jokar-Na
+  - Nrok-Ja
+  - Jolpor
+  - Kursul
+  - Solarut
+  _descriptions:
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit eu turpis
+    non mattis. Aliquam vel metus sem. Duis vel dolor ac quam fringilla tincidunt
+    eu nec ligula. Sed pharetra malesuada arcu, eu interdum nisi mattis nec. Vestibulum
+    in libero diam. Integer vel ipsum semper, fringilla velit vel, tempus enim. Donec
+    congue sed arcu viverra eleifend.
+  _maxEnemyCount: 5
+  _minResourceCount: 2
+  _maxResourceCount: 5
+  _minDistance: 3
+  _maxDistance: 9
+  _maxScaleFactor: 1.5
+  _minScaleFactor: 0.8

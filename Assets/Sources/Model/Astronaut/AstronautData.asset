@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45170fdda0c331e419decbd3c778c4c4, type: 3}
+  m_Name: AstronautData
+  m_EditorClassIdentifier: 
+  _nationData:
+  - _nationName: USA
+    _maleNames:
+    - Frank
+    - Peter
+    - John
+    - Philips
+    - Stan
+    - Jordan
+    - Michael
+    - Henry
+    - Adam
+    - Nick
+    - Lary
+    - Harry
+    _femaleNames:
+    - Felicia
+    - Samantha
+    - Katelyn
+    - Scarlet
+    - Rose
+    - Linda
+    - North
+    - Pania
+    - Scilla
+    _maleSurnames:
+    - Travers
+    - Graves
+    - Miles
+    - Miles
+    - Kolins
+    - Johannes
+    _femaleSurnames:
+    - Travers
+    - Graves
+    - Miles
+    - Miles
+    - Kolins
+    - Johannes
+  - _nationName: Russia
+    _maleNames:
+    - Ivan
+    - Nikolai
+    - Pavel
+    - Vladimir
+    - Leonid
+    - Konstantin
+    _femaleNames:
+    - Svetlana
+    - Anastasia
+    - Ekaterina
+    - Daria
+    - Dmitrii
+    - Semyon
+    _maleSurnames:
+    - Kravec
+    - Margolis
+    - Kravchenko
+    - Rasskazov
+    - Kulbakin
+    - Nostrov
+    _femaleSurnames:
+    - Nostrova
+    - Kravec
+    - Margolis
+    - Kravchenko
+    - Rasskazova
+    - Kulbakina
+  _femaleSprites:
+  - {fileID: 21300000, guid: f9952371e41dd574dbcfbde9cbcbf28f, type: 3}
+  - {fileID: 21300000, guid: 44ddcf580296abc46bbbf4b986b60638, type: 3}
+  - {fileID: 21300000, guid: fb6ae7c32041c824aafb1c974302dc56, type: 3}
+  - {fileID: 21300000, guid: 349600338f307614abab05a63ecce115, type: 3}
+  _maleSprites:
+  - {fileID: 21300000, guid: cd3e606fec8069343b6343c4d4fbe36d, type: 3}
+  - {fileID: 21300000, guid: 282446fd2df9da74a9588e30cbb799fc, type: 3}
+  _descriptions:
+  - '{name} from {nation} is not just an adventurer but also a symbol of humanity''s
+    drive to reach the stars. {his_her} story is one of perseverance, ingenuity,
+    and teamwork, demonstrating that no dream is too far away for those who dare
+    to pursue it.'
+  - Hailing from {nation}, {name} is renowned for {his_her} sharp intellect and calm
+    demeanor under pressure. {he_she} has played a critical role in advancing space
+    technology, turning challenges into opportunities to improve life on Earth and
+    beyond.
+  - As a fearless astronaut, {name} from {nation} has ventured to the edge of the
+    unknown, exploring new frontiers with determination. {his_her} legacy is marked
+    by groundbreaking achievements and {his_her} ability to inspire a new generation
+    of explorers.
+  - '{name} is a dedicated pioneer in the field of space exploration. Born in {nation},
+    {he_she} has devoted {his_her} life to unraveling the mysteries of the universe,
+    demonstrating resilience, adaptability, and a profound passion for discovery.'
+  - With an impressive record of accomplishments, {name} from {nation} has earned
+    the respect of peers and admirers alike. {his_her} tireless efforts and exceptional
+    skills make {name} a true beacon of hope for interstellar missions.
+  _maxAge: 38
+  _minAge: 24
+  _minCapacity: 5
+  _maxCapacity: 10
+  _minHealth: 3
+  _maxHealth: 10
+  _minSpeed: 3
+  _maxSpeed: 8
+  _maxAllowedHealth: 60
+  _maxAllowedCapacity: 10
+  _maxAllowedSpeed: 10
