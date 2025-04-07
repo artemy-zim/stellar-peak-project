@@ -24,9 +24,6 @@
 - 🧠 **Astronaut Upgrades**  
   Each astronaut can be upgraded in various stats, improving performance during planetary missions.
 
-- 💾 **Autosaving**  
-  Game state (galaxy, planets, resources, crew progress) is automatically saved between scene transitions.
-
 - ✨ **Animated UI**  
   DOTween powers smooth animations for UI elements and transitions.
 
@@ -38,22 +35,20 @@
 - **UniRx + UniTask** – reactive programming and asynchronous tasks without coroutines
 - **Clean Architecture Principles** – SOLID, DRY, YAGNI, KISS
 - **ScriptableObject** – configuration data for resources, generation rules, upgrades
-- **JsonUtility** – used for game data serialization and autosaves
-- **DOTween** – for rich and responsive UI animations
+- **JsonUtility** – used for game data serialization
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology      | Purpose                          |
+| Technology       | Purpose                          |
 |------------------|----------------------------------|
 | Unity            | Game Engine                      |
 | C#               | Development Language             |
 | UniRx            | Reactive Programming             |
 | UniTask          | Async Operations                 |
-| DOTween          | UI and Element Animations        |
 | JsonUtility      | Save/Load System                 |
-| ScriptableObject | Data and Configuration Management |
+| ScriptableObject | Data and Configuration Management|
 
 ---
 
