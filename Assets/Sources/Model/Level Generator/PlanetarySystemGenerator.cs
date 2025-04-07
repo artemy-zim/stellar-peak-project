@@ -22,13 +22,13 @@ public class PlanetarySystemGenerator : MonoBehaviour
             int enemyCount = GenerateEnemiesCount(resources.Count);
             centerDistance += Random.Range(_spaceBodyData.MinDistance, _spaceBodyData.MaxDistance);
 
-            planets.Add(new SpaceBody(resources, enemyCount, _spaceBodyData.Descriptions[Random.Range(0, _spaceBodyData.Descriptions.Count)], _spaceBodyData.Names[Random.Range(0, _spaceBodyData.Names.Count)], Random.Range(0, _maxRevolutionAroundDegree), centerDistance, Random.Range(_spaceBodyData.MinScaleFactor, _spaceBodyData.MaxScaleFactor)));
+            planets.Add(new SpaceBody(_spaceBodyData.Prefabs[Random.Range(0, _spaceBodyData.Prefabs.Count)], resources, enemyCount, _spaceBodyData.Descriptions[Random.Range(0, _spaceBodyData.Descriptions.Count)], _spaceBodyData.Names[Random.Range(0, _spaceBodyData.Names.Count)], Random.Range(0, _maxRevolutionAroundDegree), centerDistance, Random.Range(_spaceBodyData.MinScaleFactor, _spaceBodyData.MaxScaleFactor)));
         }
 
         Sprite image = _planeterySystemData.Sprites[Random.Range(0, _planeterySystemData.Sprites.Count)];
         DangerLevel dangerLevel = GetDangerLevel(planets.Sum(p => p.EnemyCount));
 
-        return new PlaneterySystem(planets, dangerLevel, image, _planeterySystemData.Names[Random.Range(0, _planeterySystemData.Names.Count)], _planeterySystemData.Descriptions[Random.Range(0, _planeterySystemData.Descriptions.Count)]);
+        return new PlaneterySystem(_planeterySystemData.Prefabs[Random.Range(0, _planeterySystemData.Prefabs.Count)],planets, dangerLevel, image, _planeterySystemData.Names[Random.Range(0, _planeterySystemData.Names.Count)], _planeterySystemData.Descriptions[Random.Range(0, _planeterySystemData.Descriptions.Count)]);
     }
 
     private DangerLevel GetDangerLevel(int enemyCount)

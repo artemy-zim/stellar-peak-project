@@ -6,7 +6,7 @@ public abstract class Spawner<T> where T : MonoBehaviour, ISpawnable
 {
     protected readonly GameObject _prefab;
 
-    private Transform _container;
+    private readonly Transform _container;
 
     protected Spawner(GameObject prefab, Transform container)
     {

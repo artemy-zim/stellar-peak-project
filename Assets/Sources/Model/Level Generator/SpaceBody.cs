@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 public class SpaceBody
 {
-    private List<Resource> _resources;
+    private readonly List<Resource> _resources;
 
-    public SpaceBody(List<Resource> resources, int enemyCount, string description, string name, int revolutionAroundDegree, float centerDistance, float scaleFactor)
+    public SpaceBody(PlanetView prefab, List<Resource> resources, int enemyCount, string description, string name, int revolutionAroundDegree, float centerDistance, float scaleFactor)
     {
         RevolutionAroundDegree = revolutionAroundDegree;
         _resources = resources;
@@ -14,6 +14,7 @@ public class SpaceBody
         Description = description;
         CenterDistance = centerDistance;
         ScaleFactor = scaleFactor;
+        Prefab = prefab;
     }
 
     public string ID { get; } = Guid.NewGuid().ToString();
@@ -24,4 +25,5 @@ public class SpaceBody
     public int RevolutionAroundDegree { get; }
     public float CenterDistance { get; }
     public float ScaleFactor { get; }
+    public PlanetView Prefab { get; }
 }

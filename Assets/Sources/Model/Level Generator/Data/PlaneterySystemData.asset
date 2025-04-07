@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04e1d263b5bb6741ae49e0b6f975ebd, type: 3}
+  m_Name: PlaneterySystemData
+  m_EditorClassIdentifier: 
+  _names:
+  - NK-10
+  - Nebula
+  - Morkul-01
+  - Morkul-02
+  - Sentinel-Arania
+  - Nova-Mega
+  - Light-Nova
+  - Le-Ke
+  - Kenonia 11
+  - Septima Un
+  - Septima Sec
+  - Korus
+  - Porska
+  - Ponini
+  - Kolin Ota
+  - Centaura
+  - Hovse
+  - Loyo
+  - DE-ZE1
+  - KI-127
+  - KI-130
+  - KI-180
+  - Jaka Na
+  - Imma III
+  - Lisaron IV
+  - Lisaron III
+  - Lisaron II
+  - Lisaron I
+  - Alteya
+  - Nigva
+  - Kamra
+  - Arte
+  - Nebala I
+  - Nebala II
+  _descriptions:
+  - A distant sun casts a golden glow over a system filled with mystery and wonder.
+    Shifting clouds of cosmic dust create mesmerizing patterns in the sky, while
+    deep craters on ancient worlds tell stories of celestial collisions. Strange
+    atmospheric compositions give rise to vibrant auroras, dancing across the horizons.
+    Hidden beneath thick layers of ice or rock, unknown elements and potential signs
+    of past life wait to be uncovered.
+  - This planetary system orbits a main-sequence star classified as a G-type, exhibiting
+    moderate solar activity and a stable habitable zone. The planets display a variety
+    of geological compositions, including silicate-rich terrestrial worlds and gas
+    giants with thick hydrogen-helium atmospheres. Some exoplanets show strong magnetic
+    fields, influencing charged particle interactions and generating high-energy
+    auroras.
+  - The system revolves around a young, highly active K-type star, emitting intense
+    stellar flares and solar winds that interact with planetary magnetospheres. Some
+    planets are tidally locked, resulting in extreme temperature variations between
+    their day and night sides. Remote sensing has detected the presence of cryovolcanism
+    on icy moons, expelling water vapor and hydrocarbons into space.
+  - "A binary star system, where a white dwarf and an M-class red dwarf interact,
+    causing periodic shifts in gravitational forces that influence planetary orbits.
+    The inner planets experience extreme radiation levels due to the proximity of
+    the white dwarf\u2019s residual X-ray emissions. One exoplanet exhibits a high-albedo
+    surface, suggesting extensive ice coverage, while another shows tectonic activity,
+    producing measurable seismic waves. "
+  - This system features a pulsar at its center, emitting periodic radio waves that
+    create a unique environment for its surrounding exoplanets. The intense radiation
+    strips atmospheres from smaller planets, leaving behind dense rocky cores with
+    high metallic compositions. Some planetary bodies exhibit synchrotron radiation
+    signatures, indicating the presence of strong magnetic fields.
+  - 'A red giant star dominates this system, slowly shedding its outer layers and
+    creating a vast protoplanetary nebula. The remaining planets are in the late
+    stages of their evolution, with some showing signs of atmospheric loss due to
+    increased stellar radiation. One planet contains large surface deposits of oxidized
+    iron, possibly due to prolonged exposure to high oxygen levels in its former
+    atmosphere. Evidence of subsurface liquid reservoirs has been suggested through
+    gravitational anomalies detected by passing spacecraft. '
+  _sprites:
+  - {fileID: 21300000, guid: 357960190e98b48f1838dfabcc8d2912, type: 3}
+  - {fileID: 21300000, guid: 67305741c643f45a69932e6470cb7b5c, type: 3}
+  - {fileID: 21300000, guid: 0369ef52fb00444b686f143cc36b2b73, type: 3}
+  - {fileID: 21300000, guid: 30af861f4c8c141159c3c1ff5b424c3c, type: 3}
+  - {fileID: 21300000, guid: a0a59abfa2a0941cc845b6ae63e998ec, type: 3}
+  - {fileID: 21300000, guid: 60bc564731cee4c22840a60e8aa512ee, type: 3}
+  _minPlanetsCount: 2
+  _maxPlanetsCount: 8
+  _starPrefabs:
+  - {fileID: 6398655946309632716, guid: 8e99047c6ce622345b6ba688f1372119, type: 3}
+  - {fileID: 6398655946309632716, guid: 0626dc35f8af0394e8eded81d0c9a895, type: 3}
+  - {fileID: 6398655946309632716, guid: 293a67beaa88f0141a2c46c7e9106ae1, type: 3}

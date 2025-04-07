@@ -11,9 +11,11 @@ public class PlaneterySystem
     public Sprite Sprite { get; }
     public string Name { get; }
     public string Description { get; }
+    public GameObject Prefab { get; }
 
-    public PlaneterySystem(List<SpaceBody> planets, DangerLevel dangerLevel, Sprite sprite, string name, string description)
+    public PlaneterySystem(GameObject prefab ,List<SpaceBody> planets, DangerLevel dangerLevel, Sprite sprite, string name, string description)
     {
+        Prefab = prefab;
         Planets = planets;
         DangerLevel = dangerLevel;
         Sprite = sprite;

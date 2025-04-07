@@ -6,6 +6,7 @@ public class SpaceBodyData : ScriptableObject
 {
     [SerializeField] private List<string> _names;
     [SerializeField] private List<string> _descriptions;
+    [SerializeField] private List<PlanetView> _planetPrefabs;
     [SerializeField] private int _maxEnemyCount;
     [SerializeField] private int _minResourceCount;
     [SerializeField] private int _maxResourceCount;
@@ -23,4 +24,5 @@ public class SpaceBodyData : ScriptableObject
     public float MaxDistance => _maxDistance;
     public float MaxScaleFactor => _maxScaleFactor;
     public float MinScaleFactor => _minScaleFactor;
+    public IReadOnlyList<PlanetView> Prefabs => _planetPrefabs;
 }
