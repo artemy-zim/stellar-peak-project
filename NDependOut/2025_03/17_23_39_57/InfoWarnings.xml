@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with NDepend v2025.1.0 on 17 Mar 2025 23:39:58. Runtime .NET Framework 4.8.9290.0</Info>
+  <Info>Input directory resolved to absolute directory path: from    {.\Library\ScriptAssemblies}    to    {D:\Repos\stellar-peak\Library\ScriptAssemblies}</Info>
+  <Info>Visual Studio solution file resolved to absolute file path: from    {.\stellar-peak.sln}    to    {D:\Repos\stellar-peak\stellar-peak.sln}</Info>
+  <Info>Output directory resolved to absolute directory path: D:\Repos\stellar-peak\NDependOut</Info>
+  <Info>.NET Assemblies resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln} [ 0 , 19 ]
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Assembly-CSharp.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Autodesk.Fbx.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\AYellowpaper.SerializeInterfaces.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\AYellowpaper.SerializeInterfaces.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\PPv2URPConverters.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\UniRx.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\UniRx.Examples.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Burst.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</Info>
+  <Info>.NET Assemblies resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln} [ 20 , 39 ]
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.InputSystem.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Mathematics.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Polybrush.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Recorder.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</Info>
+  <Info>.NET Assemblies resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln} [ 40 , 59 ]
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.TerrainTools.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</Info>
+  <Info>.NET Assemblies resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln} [ 60 , 75 ]
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Timeline.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\UnityEditor.UI.dll
+   D:\Repos\stellar-peak\Library\ScriptAssemblies\UnityEngine.UI.dll</Info>
+  <Info>.NET Assemblies filtered out from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}
+   UnityEditor.TestRunner
+   UnityEngine.TestRunner
+   Unity.InputSystem.TestFramework
+   FbxBuildTestAssets</Info>
+  <Warning>Can't load the assembly {Unity.Polybrush.Editor}:
+The .NET assembly {Unity.Polybrush.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Timeline}:
+The .NET assembly {Unity.Timeline} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Assembly-CSharp}:
+The .NET assembly {Assembly-CSharp} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.TerrainTools.Editor}:
+The .NET assembly {Unity.TerrainTools.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualEffectGraph.Editor}:
+The .NET assembly {Unity.VisualEffectGraph.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ShaderGraph.Editor}:
+The .NET assembly {Unity.ShaderGraph.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.HighDefinition.Runtime}:
+The .NET assembly {Unity.RenderPipelines.HighDefinition.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.InputSystem}:
+The .NET assembly {Unity.InputSystem} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.Flow}:
+The .NET assembly {Unity.VisualScripting.Flow} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Universal.Runtime}:
+The .NET assembly {Unity.RenderPipelines.Universal.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder}:
+The .NET assembly {Unity.ProBuilder} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {UnityEditor.UI}:
+The .NET assembly {UnityEditor.UI} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Timeline.Editor}:
+The .NET assembly {Unity.Timeline.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.PlasticSCM.Editor}:
+The .NET assembly {Unity.PlasticSCM.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Core.Runtime}:
+The .NET assembly {Unity.RenderPipelines.Core.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Mathematics}:
+The .NET assembly {Unity.Mathematics} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Core.Editor}:
+The .NET assembly {Unity.RenderPipelines.Core.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.Editor}:
+The .NET assembly {Unity.ProBuilder.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.Core.Editor}:
+The .NET assembly {Unity.VisualScripting.Core.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.HighDefinition.Editor}:
+The .NET assembly {Unity.RenderPipelines.HighDefinition.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {UniRx}:
+The .NET assembly {UniRx} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.Poly2Tri}:
+The .NET assembly {Unity.ProBuilder.Poly2Tri} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Polybrush}:
+The .NET assembly {Unity.Polybrush} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Universal.Editor}:
+The .NET assembly {Unity.RenderPipelines.Universal.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.TextMeshPro.Editor}:
+The .NET assembly {Unity.TextMeshPro.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Recorder.Editor}:
+The .NET assembly {Unity.Recorder.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.Core}:
+The .NET assembly {Unity.VisualScripting.Core} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.Flow.Editor}:
+The .NET assembly {Unity.VisualScripting.Flow.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Searcher.Editor}:
+The .NET assembly {Unity.Searcher.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Burst}:
+The .NET assembly {Unity.Burst} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Autodesk.Fbx}:
+The .NET assembly {Autodesk.Fbx} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.Csg}:
+The .NET assembly {Unity.ProBuilder.Csg} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.AI.Navigation.Editor}:
+The .NET assembly {Unity.AI.Navigation.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualStudio.Editor}:
+The .NET assembly {Unity.VisualStudio.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {PPv2URPConverters}:
+The .NET assembly {PPv2URPConverters} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Assembly-CSharp-firstpass}:
+The .NET assembly {Assembly-CSharp-firstpass} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Rider.Editor}:
+The .NET assembly {Unity.Rider.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualEffectGraph.Runtime}:
+The .NET assembly {Unity.VisualEffectGraph.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.AI.Navigation.Editor.ConversionSystem}:
+The .NET assembly {Unity.AI.Navigation.Editor.ConversionSystem} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.State.Editor}:
+The .NET assembly {Unity.VisualScripting.State.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {UnityEngine.UI}:
+The .NET assembly {UnityEngine.UI} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Burst.CodeGen}:
+The .NET assembly {Unity.Burst.CodeGen} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipeline.Universal.ShaderLibrary}:
+The .NET assembly {Unity.RenderPipeline.Universal.ShaderLibrary} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.AI.Navigation}:
+The .NET assembly {Unity.AI.Navigation} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.State}:
+The .NET assembly {Unity.VisualScripting.State} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Formats.Fbx.Runtime}:
+The .NET assembly {Unity.Formats.Fbx.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.TextMeshPro}:
+The .NET assembly {Unity.TextMeshPro} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.SettingsProvider.Editor}:
+The .NET assembly {Unity.VisualScripting.SettingsProvider.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VSCode.Editor}:
+The .NET assembly {Unity.VSCode.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Burst.Editor}:
+The .NET assembly {Unity.Burst.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {AYellowpaper.SerializeInterfaces.Editor}:
+The .NET assembly {AYellowpaper.SerializeInterfaces.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {UniRx.Examples}:
+The .NET assembly {UniRx.Examples} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Formats.Fbx.Editor}:
+The .NET assembly {Unity.Formats.Fbx.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.AI.Navigation.Updater}:
+The .NET assembly {Unity.AI.Navigation.Updater} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Assembly-CSharp-Editor}:
+The .NET assembly {Assembly-CSharp-Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.Stl}:
+The .NET assembly {Unity.ProBuilder.Stl} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Settings.Editor}:
+The .NET assembly {Unity.Settings.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.2D.Sprite.Editor}:
+The .NET assembly {Unity.2D.Sprite.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Recorder}:
+The .NET assembly {Unity.Recorder} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.KdTree}:
+The .NET assembly {Unity.ProBuilder.KdTree} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.AddOns.Editor}:
+The .NET assembly {Unity.ProBuilder.AddOns.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.InputSystem.ForUI}:
+The .NET assembly {Unity.InputSystem.ForUI} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Mathematics.Editor}:
+The .NET assembly {Unity.Mathematics.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ProBuilder.AssetIdRemapUtility}:
+The .NET assembly {Unity.ProBuilder.AssetIdRemapUtility} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.ShaderGraph.Utilities}:
+The .NET assembly {Unity.ShaderGraph.Utilities} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.VisualScripting.Shared.Editor}:
+The .NET assembly {Unity.VisualScripting.Shared.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.Recorder.Base}:
+The .NET assembly {Unity.Recorder.Base} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Autodesk.Fbx.Editor}:
+The .NET assembly {Autodesk.Fbx.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.TerrainTools}:
+The .NET assembly {Unity.TerrainTools} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {AYellowpaper.SerializeInterfaces}:
+The .NET assembly {AYellowpaper.SerializeInterfaces} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.HighDefinition.Config.Runtime}:
+The .NET assembly {Unity.RenderPipelines.HighDefinition.Config.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Universal.Config.Runtime}:
+The .NET assembly {Unity.RenderPipelines.Universal.Config.Runtime} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.CollabProxy.Editor}:
+The .NET assembly {Unity.CollabProxy.Editor} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary}:
+The .NET assembly {Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Core.ShaderLibrary}:
+The .NET assembly {Unity.RenderPipelines.Core.ShaderLibrary} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Warning>Can't load the assembly {Unity.RenderPipelines.Universal.Shaders}:
+The .NET assembly {Unity.RenderPipelines.Universal.Shaders} referenced by the NDepend project won't be analyzed. A .NET assembly with the same name has already been resolved from the Visual Studio solution file {D:\Repos\stellar-peak\stellar-peak.sln}.</Warning>
+  <Info>Concurrent mode</Info>
+  <Info>.NET Assemblies loaded from {C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319} 
+   mscorlib.dll   v4.0.0.0
+   System.dll   v4.0.0.0
+   System.Core.dll   v4.0.0.0
+   netstandard.dll   v2.0.0.0
+   Microsoft.CSharp.dll   v4.0.0.0
+   System.Xml.Linq.dll   v4.0.0.0
+   System.Xml.dll   v4.0.0.0</Info>
+  <Info>.NET Assemblies loaded from {D:\Repos\stellar-peak\Library\ScriptAssemblies}  [ 0 , 19 ]
+   Unity.Polybrush.Editor.dll   v0.0.0.0
+   Unity.Timeline.dll   v1.0.0.0
+   Assembly-CSharp.dll   v0.0.0.0
+   Unity.TerrainTools.Editor.dll   v0.0.0.0
+   Unity.VisualEffectGraph.Editor.dll   v0.0.0.0
+   Unity.ShaderGraph.Editor.dll   v0.0.0.0
+   Unity.RenderPipelines.HighDefinition.Runtime.dll   v0.0.0.0
+   Unity.InputSystem.dll   v1.7.0.0
+   Unity.VisualScripting.Flow.dll   v0.0.0.0
+   Unity.RenderPipelines.Universal.Runtime.dll   v0.0.0.0
+   Unity.ProBuilder.dll   v0.0.0.0
+   UnityEditor.UI.dll   v1.0.0.0
+   Unity.Timeline.Editor.dll   v1.0.0.0
+   Unity.PlasticSCM.Editor.dll   v0.0.0.0
+   Unity.RenderPipelines.Core.Runtime.dll   v0.0.0.0
+   Unity.Mathematics.dll   v1.0.0.0
+   Unity.RenderPipelines.Core.Editor.dll   v0.0.0.0
+   Unity.ProBuilder.Editor.dll   v0.0.0.0
+   Unity.VisualScripting.Core.Editor.dll   v1.0.0.0
+   Unity.RenderPipelines.HighDefinition.Editor.dll   v0.0.0.0</Info>
+  <Info>.NET Assemblies loaded from {D:\Repos\stellar-peak\Library\ScriptAssemblies}  [ 20 , 39 ]
+   UniRx.dll   v0.0.0.0
+   Unity.ProBuilder.Poly2Tri.dll   v0.0.0.0
+   Unity.Polybrush.dll   v0.0.0.0
+   Unity.RenderPipelines.Universal.Editor.dll   v0.0.0.0
+   Unity.TextMeshPro.Editor.dll   v0.0.0.0
+   Unity.Recorder.Editor.dll   v0.0.0.0
+   Unity.VisualScripting.Core.dll   v0.0.0.0
+   Unity.VisualScripting.Flow.Editor.dll   v1.0.0.0
+   Unity.Searcher.Editor.dll   v0.0.0.0
+   Unity.Burst.dll   v0.0.0.0
+   Autodesk.Fbx.dll   v0.0.0.0
+   Unity.ProBuilder.Csg.dll   v0.0.0.0
+   Unity.AI.Navigation.Editor.dll   v0.0.0.0
+   Unity.VisualStudio.Editor.dll   v0.0.0.0
+   PPv2URPConverters.dll   v0.0.0.0
+   Assembly-CSharp-firstpass.dll   v0.0.0.0
+   Unity.Rider.Editor.dll   v3.0.7.0
+   Unity.VisualEffectGraph.Runtime.dll   v0.0.0.0
+   Unity.AI.Navigation.Editor.ConversionSystem.dll   v0.0.0.0
+   Unity.VisualScripting.State.Editor.dll   v0.0.0.0</Info>
+  <Info>.NET Assemblies loaded from {D:\Repos\stellar-peak\Library\ScriptAssemblies}  [ 40 , 59 ]
+   UnityEngine.UI.dll   v1.0.0.0
+   Unity.Burst.CodeGen.dll   v0.0.0.0
+   Unity.RenderPipeline.Universal.ShaderLibrary.dll   v0.0.0.0
+   Unity.AI.Navigation.dll   v0.0.0.0
+   Unity.VisualScripting.State.dll   v0.0.0.0
+   Unity.Formats.Fbx.Runtime.dll   v0.0.0.0
+   Unity.TextMeshPro.dll   v0.0.0.0
+   Unity.VisualScripting.SettingsProvider.Editor.dll   v0.0.0.0
+   Unity.VSCode.Editor.dll   v0.0.0.0
+   Unity.Burst.Editor.dll   v0.0.0.0
+   AYellowpaper.SerializeInterfaces.Editor.dll   v0.0.0.0
+   UniRx.Examples.dll   v0.0.0.0
+   Unity.Formats.Fbx.Editor.dll   v0.0.0.0
+   Unity.AI.Navigation.Updater.dll   v0.0.0.0
+   Assembly-CSharp-Editor.dll   v0.0.0.0
+   Unity.ProBuilder.Stl.dll   v0.0.0.0
+   Unity.Settings.Editor.dll   v0.0.0.0
+   Unity.2D.Sprite.Editor.dll   v0.0.0.0
+   Unity.Recorder.dll   v0.0.0.0
+   Unity.ProBuilder.KdTree.dll   v0.0.0.0</Info>
+  <Info>.NET Assemblies loaded from {D:\Repos\stellar-peak\Library\ScriptAssemblies}  [ 60 , 79 ]
+   Unity.ProBuilder.AddOns.Editor.dll   v0.0.0.0
+   Unity.InputSystem.ForUI.dll   v0.0.0.0
+   Unity.Mathematics.Editor.dll   v0.0.0.0
+   Unity.ProBuilder.AssetIdRemapUtility.dll   v0.0.0.0
+   Unity.ShaderGraph.Utilities.dll   v0.0.0.0
+   Unity.VisualScripting.Shared.Editor.dll   v0.0.0.0
+   Unity.Recorder.Base.dll   v0.0.0.0
+   Autodesk.Fbx.Editor.dll   v0.0.0.0
+   Unity.TerrainTools.dll   v0.0.0.0
+   AYellowpaper.SerializeInterfaces.dll   v0.0.0.0
+   Unity.RenderPipelines.HighDefinition.Config.Runtime.dll   v0.0.0.0
+   Unity.RenderPipelines.Universal.Config.Runtime.dll   v0.0.0.0
+   Unity.CollabProxy.Editor.dll   v0.0.0.0
+   Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll   v0.0.0.0
+   Unity.RenderPipelines.Core.ShaderLibrary.dll   v0.0.0.0
+   Unity.RenderPipelines.Universal.Shaders.dll   v0.0.0.0
+   UnityEditor.TestRunner.dll   v1.0.0.0
+   UnityEngine.TestRunner.dll   v1.0.0.0
+   Unity.InputSystem.TestFramework.dll   v1.7.0.0
+   FbxBuildTestAssets.dll   v0.0.0.0</Info>
+  <Info>7 514 source files parsed ; 7 source files not found ; all source files in-sync with PDB</Info>
+  <Info>0 code rule has been extracted from code.</Info>
+  <Info>No issue have been imported. No directory that contains issue files have been resolved from the project stellar-peak</Info>
+  <Info>No dependency cycle detected in assemblies reference graph.</Info>
+  <Info>Do merge code generated by compiler into application code.</Info>
+  <Info>Analyze dependencies of your application.</Info>
+  <Info>No SuppressMessageAttribute found in the analyzed code base. Since NDepend v2018.2 SuppressMessageAttribute can be used to suppress NDepend issues. Don't forget to set in your projects the compilation symbol CODE_ANALYSIS to use this attribute to suppress NDepend issues.</Info>
+  <Info>Persisting code model snapshot in {D:\Repos\stellar-peak\NDependOut\NDependAnalysisResult_stellar_peak_2025Mar17_23h39m57.ndar}</Info>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {UniRx} can't be found.</Warning>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {AYellowpaper.SerializeInterfaces} can't be found.</Warning>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {Assembly-CSharp} can't be found.</Warning>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {Assembly-CSharp-firstpass} can't be found.</Warning>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {AYellowpaper.SerializeInterfaces.Editor} can't be found.</Warning>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {UniRx.Examples} can't be found.</Warning>
+  <Warning>The source directory {D:\Repos\stellar-peak\Unity.SourceGenerators\Unity.MonoScriptGenerator.MonoScriptInfoGenerator} referenced by the PDB file of the assembly {Assembly-CSharp-Editor} can't be found.</Warning>
+  <Info>Log trend metrics values.</Info>
+  <Warning>Rule {From now, all types added should be 100% covered by tests} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {From now, all types added should be 100% covered by tests} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Avoid decreasing code coverage by tests of types} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Avoid decreasing code coverage by tests of types} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Error>Rule {Broken serializable types} execution error when executed against the newer code base snapshot.
+Issues (if any) when executed against the baseline code base snapshot are not taken account.
+An exception occurred during the query execution.
+Exception.Type {System.InvalidOperationException}
+Exception.Message {Последовательность содержит более одного элемента}</Error>
+  <Warning>Rule {Code should be tested} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Code should be tested} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {New Types and Methods should be tested} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {New Types and Methods should be tested} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Methods refactored should be tested} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Methods refactored should be tested} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Assemblies and Namespaces should be tested} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Assemblies and Namespaces should be tested} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types almost 100% tested should be 100% tested} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types almost 100% tested should be 100% tested} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Namespaces almost 100% tested should be 100% tested} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Namespaces almost 100% tested should be 100% tested} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types that used to be 100% covered by tests should still be 100% covered} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types that used to be 100% covered by tests should still be 100% covered} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types tagged with FullCoveredAttribute should be 100% covered} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types tagged with FullCoveredAttribute should be 100% covered} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types 100% covered should be tagged with FullCoveredAttribute} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Types 100% covered should be tagged with FullCoveredAttribute} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Methods should have a low C.R.A.P score} relies on code coverage data that is not available in the baseline code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Rule {Methods should have a low C.R.A.P score} relies on code coverage data that is not available in the newer code base snapshot. The rule hasen't been executed on both baseline and newer code base snapshots.</Warning>
+  <Warning>Quality Gate {Percentage Coverage} relies on code coverage data that is not available in the baseline code base snapshot.</Warning>
+  <Warning>Quality Gate {Percentage Coverage} relies on code coverage data that is not available in the newer code base snapshot.</Warning>
+  <Warning>Quality Gate {Percentage Coverage on New Code} relies on code coverage data that is not available in the baseline code base snapshot.</Warning>
+  <Warning>Quality Gate {Percentage Coverage on New Code} relies on code coverage data that is not available in the newer code base snapshot.</Warning>
+  <Warning>Quality Gate {Percentage Coverage on Refactored Code} relies on code coverage data that is not available in the baseline code base snapshot.</Warning>
+  <Warning>Quality Gate {Percentage Coverage on Refactored Code} relies on code coverage data that is not available in the newer code base snapshot.</Warning>
+  <Info>Execute queries and rules</Info>
+  <Info>Output report projects</Info>
+  <Info>Output report source files</Info>
+  <Warning>The baseline versions of source files modified are not available in the report.
+Reason: Cannot find the file {SourceFiles.zip} in the analysis result directory {D:\Repos\stellar-peak\NDependOut}.
+Make sure that the NDepend Project Properties &gt; Analysis &gt; Zip Source Files setting is enabled.</Warning>
+  <Info>The report lists 2 000 sources files (0 new and 0 modified since the baseline) on a total of 7 515 source files for the application analyzed.
+See 'Project Properties &gt; Report' to adjust the set of source files listed in the report.</Info>
+  <Error>4 quality gates fail:
+  - 'Blocker Issues' value 2 issues greater than fail threshold 0 issues
+  - 'Critical Issues' value 159 issues greater than fail threshold 10 issues
+  - 'Critical Rules Violated' value 14 rules greater than fail threshold 0 rules
+  - 'Debt Rating per Namespace' value 55 namespaces greater than fail threshold 0 namespaces</Error>
+  <Info>Building the report (standard, compressed).</Info>
+  <Info>NDepend analysis done. Duration: 00:59.265</Info>
+</InfoWarnings>
