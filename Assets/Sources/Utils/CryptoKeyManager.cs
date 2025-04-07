@@ -20,7 +20,7 @@ public class CryptoKeyManager
 
     private static byte[] GetData(string key)
     {
-        if(PlayerPrefs.HasKey(key) == false)
+        if (PlayerPrefs.HasKey(key) == false)
             GenerateNewKey();
 
         return Convert.FromBase64String(PlayerPrefs.GetString(key));
@@ -28,12 +28,16 @@ public class CryptoKeyManager
 
     private static void GenerateNewKey()
     {
+        if (PlayerPrefs.HasKey(CryptoKeyData.Params.EncryptionKeyPref) &&
+        PlayerPrefs.HasKey(CryptoKeyData.Params.EncryptionIVPref))
+            return; 
+
         using Aes aes = Aes.Create();
         aes.GenerateKey();
         aes.GenerateIV();
 
-        PlayerPrefs.SetString(PlayerPrefs.GetString(CryptoKeyData.Params.EncryptionKeyPref), Convert.ToBase64String(aes.Key));
-        PlayerPrefs.SetString(PlayerPrefs.GetString(CryptoKeyData.Params.EncryptionIVPref), Convert.ToBase64String(aes.IV));
+        PlayerPrefs.SetString(CryptoKeyData.Params.EncryptionKeyPref, Convert.ToBase64String(aes.Key));
+        PlayerPrefs.SetString(CryptoKeyData.Params.EncryptionIVPref, Convert.ToBase64String(aes.IV));
         PlayerPrefs.Save();
     }
 }
