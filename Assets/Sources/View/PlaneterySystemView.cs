@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class PlaneterySystemView : MonoBehaviour, IPlaneterySystemView
 {
-    [SerializeField] private PlanetView _planetPrefab; 
-    [SerializeField] private GameObject _starPrefab;   
     [SerializeField] private Transform _systemRoot;
+    [SerializeField] private float observationDistance;
 
     [SerializeField] private PlanetCardView _planetCard;
 
     public void DisplayPlanet(SpaceBody planetData)
     {
-        var planet = Instantiate(_planetPrefab, _systemRoot);
+        var planet = Instantiate(planetData.Prefab, _systemRoot);
         planet.name = planetData.Name;
 
         planet.transform.localScale = Vector3.one * planetData.ScaleFactor;
@@ -20,7 +19,7 @@ public class PlaneterySystemView : MonoBehaviour, IPlaneterySystemView
         planet.transform.localPosition = position;
 
         if (planet.TryGetComponent(out PlanetView planetView))
-            planetView.Initialize(planetData.ID);
+            planetView.Initialize(planetData.ID, _systemRoot, observationDistance);
     }
 
     public void DisplayPlanetInfo(SpaceBody planetData)
@@ -28,8 +27,8 @@ public class PlaneterySystemView : MonoBehaviour, IPlaneterySystemView
         _planetCard.Render(planetData);
     }
 
-    public void DisplayStar()
+    public void DisplayStar(GameObject starPrefab)
     {
-        var star = Instantiate(_starPrefab, _systemRoot);
+        Instantiate(starPrefab, _systemRoot);
     }
 }
