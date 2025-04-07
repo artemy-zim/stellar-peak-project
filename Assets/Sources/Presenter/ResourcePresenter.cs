@@ -40,7 +40,7 @@ public class ResourcePresenter
         foreach (IReadOnlyResource resource in resources)
         {
             List<SpawnPoint> freeSpawnPoints = spawnPoints.Except(_takenSpawnPoints).ToList();
-            ResourceView view = spawner.Spawn(freeSpawnPoints[Random.Range(0, _takenSpawnPoints.Count)].GetPosition());
+            ResourceView view = spawner.Spawn(freeSpawnPoints[Random.Range(0, freeSpawnPoints.Count)].GetPosition());
 
             view.Init(resource.Mesh, resource.Materials, resource.ID);
             view.Interacted += HandleInteraction;

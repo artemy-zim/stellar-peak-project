@@ -21,7 +21,7 @@ public class PlaneterySystemPresenter
 
     private void Initialize()
     {
-        _view.DisplayStar();
+        _view.DisplayStar(GameSession.Instance.SelectedSystem.Prefab);
 
         foreach (var planet in _model.Planets)
         {
